@@ -1,6 +1,5 @@
 package dev.amabb.config;
 
-import io.quarkus.runtime.Startup;
 import io.quarkus.runtime.StartupEvent;
 import io.vertx.mutiny.pgclient.PgPool;
 import io.vertx.mutiny.sqlclient.Tuple;
@@ -11,7 +10,6 @@ import net.datafaker.Faker;
 import java.util.ArrayList;
 import java.util.List;
 
-//@Startup
 @ApplicationScoped
 public class InitDb {
 
