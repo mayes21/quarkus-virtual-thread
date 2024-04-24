@@ -1,0 +1,11 @@
+quarkus:
+  datasource:
+    db-kind: postgresql
+    username: postgres
+    password: postgres
+    reactive:
+      url: postgresql://localhost:5432/person
+    devservices:
+      enabled: true
+      port: 5432
+      db-name: person
