@@ -6,6 +6,6 @@ quarkus:
     reactive:
       url: postgresql://localhost:5432/person
     devservices:
-      enabled: true
-      port: 5432
-      db-name: person
+      enabled: false
+#      port: 5432
+#      db-name: person
